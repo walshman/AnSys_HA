@@ -1,0 +1,25 @@
+h1{
+  margin: 35px;
+}
+
+table, td{
+  border: 1pt solid black;
+  padding: 1px;
+  
+}
+
+img{
+ 
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px grey;
+  margin: 25px;
+  
+}
+
+body{
+  background-color: #e9e8ec;
+}
+
+#myForm{
+  margin: 35px;
+}

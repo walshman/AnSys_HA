@@ -1,0 +1,30 @@
+<head> 
+  <title> Detailansicht </title>
+</head>
+
+<body>
+  
+  <div class="row">
+    <div class="col-sm-4" id="1">
+     <h1> Smart Meter 1 </h1>
+     <img src=http://files.www.whatissmartgrid.org/smart-grid-101/smart-meters/smartmeterpic.jpg >
+     <p> Zählernummer: HG10338725</p>
+    
+     <form id="myForm" onsubmit="read()">
+        <label> Nutzerkennung </label>
+        <input type="text" id="user"> <br>
+        <label> Verbrauchswert </label> 
+        <input type="text" id="usage"> <br>
+        <input type="button" onclick="doPrint()" value="Submit">
+     </form>
+      
+   </div>
+  
+  <div class="col-sm-4">
+    <p id="1"> </p>
+  <div>
+    <table id="table">
+    </table>
+    </div>
+    </div>
+</body>
