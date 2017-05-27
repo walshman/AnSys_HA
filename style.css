@@ -1,5 +1,6 @@
 h1{
-  margin: 35px;
+  text-align: center;
+  //margin: 35px;
 }
 
 table, td{
@@ -9,10 +10,11 @@ table, td{
 }
 
 img{
- 
   border-radius: 20px;
   box-shadow: 5px 5px 2px grey;
-  margin: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  //margin: 25px;
   
 }
 
@@ -21,5 +23,19 @@ body{
 }
 
 #myForm{
+  //margin: 35px;
+}
+
+#first{
   margin: 35px;
+}
+
+#info, #image{
+  display: inline;
+  float: left;
+  margin: 15px;
+}
+
+#counter{
+  clear: both;
 }

@@ -1,16 +1,45 @@
-<head> 
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Lukas Tilmann</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head> 
   <title> Detailansicht </title>
 </head>
 
 <body>
   
   <div class="row">
-    <div class="col-sm-4" id="1">
-     <h1> Smart Meter 1 </h1>
-     <img src=http://files.www.whatissmartgrid.org/smart-grid-101/smart-meters/smartmeterpic.jpg >
-     <p> Zählernummer: HG10338725</p>
-    
-     <form id="myForm" onsubmit="read()">
+    <div class="col-sm-4" id="first">
+      <div id="topBox">
+         <h1> Smart Meter 1 </h1>
+         <img src=http://files.www.whatissmartgrid.org/smart-grid-101/smart-meters/smartmeterpic.jpg id="image">
+      
+         <p id="counter"> Zählernummer: HG10338725</p>
+        
+      </div>
+      
+      
+      <div id="info">
+        <p id="status"> Status:</p>
+        <p id="volts"> </p>
+        <p id="amperes"> </p>
+      </div>
+      
+      
+      
+      
+     <form id="myForm">
         <label> Nutzerkennung </label>
         <input type="text" id="user"> <br>
         <label> Verbrauchswert </label> 
@@ -25,6 +54,13 @@
   <div>
     <table id="table">
     </table>
-    </div>
-    </div>
+  </div>
+    
+  </div>
 </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
